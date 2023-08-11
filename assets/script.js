@@ -15,7 +15,7 @@ let products = [
     price: 1.50,
     quantity: 0,
     productId: 1110,
-    image: '/main/images/cherry.jpg',
+    image: '/images/cherry.jpg',
   },
 
   {
@@ -23,7 +23,7 @@ let products = [
     price: 2,
     quantity: 0,
     productId: 1111,
-    image: '/main/images/orange.jpg',
+    image: '/images/orange.jpg',
   },
 
   {
@@ -31,7 +31,7 @@ let products = [
     price: 1,
     quantity: 0,
     productId: 1112,
-    image:'/main/images/strawberry.jpg',
+    image:'/images/strawberry.jpg',
   }
 ];
 
