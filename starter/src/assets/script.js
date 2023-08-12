@@ -62,7 +62,7 @@ function addProductToCart(productId) {
       });
     }
   } else {
-    console.log('Product not found.');
+      return 'Product not found.';
   }
 }
 //_______________________________________________________________________________________
@@ -80,7 +80,7 @@ function increaseQuantity(productId) {
     // Increase the quantity of the product in the cart
     productInCart.quantity += 1;
   } else {
-    console.log('Product not found in the cart.');
+      return 'Product not found in the cart.';
   }
 }
 
@@ -104,7 +104,7 @@ function decreaseQuantity(productId) {
       cart.splice(productIndex, 1);
     }
   } else {
-    console.log('Product not found in the cart.');
+      return 'Product not found in the cart.';
   }
 }
 //_______________________________________________________________________________________
@@ -121,7 +121,7 @@ function removeProductFromCart(productId) {
     cart[productIndex].quantity = 0;
     cart.splice(productIndex, 1);
   } else {
-    console.log('Product not found in the cart.');
+      return 'Product not found in the cart.';
   }
 }
 //_______________________________________________________________________________________
@@ -150,7 +150,7 @@ let removeAll = cart.findIndex(items => items.products === products);
     cart[removeAll].quantity = 0;
     cart.splice(0);
   } else {
-    console.log('No items in cart. Continue shopping');
+      return 'No productsfound in your cart. Continue shopping';
   }
 }
 /* Create a function named pay that takes in an amount as an argument
