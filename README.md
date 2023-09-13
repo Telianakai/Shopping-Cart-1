@@ -1,7 +1,7 @@
 # _Shopping Cart Project_ 
 
 ### Description
-In this project I created the core functonality used for a storefront application. 
+In this project I created the core functionality used for a storefront application. 
 
 ### Skills Gained
 - Ideal Workflow
